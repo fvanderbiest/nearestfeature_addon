@@ -1,0 +1,45 @@
+{
+    "js": [
+        "js/WPS_Utils.js",
+        "js/main.js",
+        "../../../lib/externals/openlayers/lib/OpenLayers/Layer/Image.js",
+        "../../../lib/proj4js/lib/proj4js-combined.js",
+        "../../../lib/externals/openlayers/lib/OpenLayers/Format/WCSGetCoverage.js",
+        "../../../lib/externals/openlayers/lib/OpenLayers/Format/WPSExecute.js",        
+        "../../../lib/externals/openlayers/lib/OpenLayers/WPSClient.js",
+        "../../../lib/externals/openlayers/lib/OpenLayers/WPSProcess.js"
+    ],
+    "css": [
+        "css/nearestfeature.css"
+    ],
+    "default_options": {
+        "mode": "static",
+        "showintoolmenu": true        
+    },
+    "i18n": {
+        "en": {
+               "nearestfeature.title": "Nearest Feature",
+               "nearestfeature.tooltip": "Select a point in the map",
+               "nearestfeature.import": "Import",
+               "nearestfeature.import.tooltip": "Import a new layer",
+               "nearestfeature.activate": "Activer",
+               "nearestfeature.import.workspace": "Workspace",
+               "nearestfeature.import.layername": "Layer name",
+               "nearestfeature.import.projection": "Projection",
+               "nearestfeature.import.submit": "Validate",
+               "nearestfeature.warning.message": "The layer name and workspace are not defined"               
+              },
+        "fr": {
+               "nearestfeature.title": "Le plus proche caractéristique",
+               "nearestfeature.tooltip": "Selectionner un point sur la carte",
+               "nearestfeature.import": "Importer",
+               "nearestfeature.import.tooltip": "Importer une nouvelle couche",
+               "nearestfeature.activate": "Activate",
+               "nearestfeature.import.workspace": "Espace de travail",
+               "nearestfeature.import.layername": "Nom de la couche",
+               "nearestfeature.import.projection": "Projection",
+               "nearestfeature.import.submit": "Valider",
+               "nearestfeature.warning.message": "Le nom de la couche et l'espace de travail non définit"
+              }
+    }
+}
